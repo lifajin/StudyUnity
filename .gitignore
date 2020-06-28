@@ -34,3 +34,6 @@ ExportedObj/
 *.apk
 *.unitypackage
 CecilInject/FastProfiler/bin
+CecilInject/FastProfiler/FastProfiler/bin
+CecilInject/FastProfiler/obj
+CecilInject/FastProfiler/FastProfiler/obj
