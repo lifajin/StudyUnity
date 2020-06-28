@@ -10,6 +10,7 @@ public static class InjectTool
 
     private const string AssemblyPath = "./Library/ScriptAssemblies/Assembly-CSharp.dll";
 
+    
     [MenuItem("Custom/Inject")]
     public static void Inject()
     {

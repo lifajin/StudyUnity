@@ -33,3 +33,4 @@ ExportedObj/
 # Builds
 *.apk
 *.unitypackage
+CecilInject/FastProfiler/bin

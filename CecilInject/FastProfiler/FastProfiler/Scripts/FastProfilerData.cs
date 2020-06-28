@@ -4,6 +4,25 @@ using UnityEngine;
 
 namespace FastProfiler
 {
+
+    public class RecordDuration
+    {
+         public int startFrame;
+         public int endFrame;
+         public long startTime;
+         public long endTime;      
+         
+         public void Start()
+         {
+            
+         }
+
+         public void End()
+         {
+            
+         } 
+    }
+    
     public enum ProfilerRecordType
     {
         All,
@@ -11,7 +30,9 @@ namespace FastProfiler
         Class,
     }
     
-    public class BaseProfilerRecord{
+    public class BaseProfilerRecord
+    {
+        public RecordDuration Duration = new RecordDuration();
         public virtual ProfilerRecordType RecordType
         {
             get { return ProfilerRecordType.All; }
@@ -24,20 +45,17 @@ namespace FastProfiler
         
         public virtual void Start()
         {
-            
+            Duration.Start();
         }
 
         public virtual void End()
         {
-            
+            Duration.End();
         }
     }
     public class FastProfilerMethodRecord : BaseProfilerRecord
     {
-        public int startFrame;
-        public int endFrame;
-        public long startTime;
-        public long endTime;
+
         public long gcStartAllocate;
         public long gcEndAllocate;
 
@@ -48,12 +66,12 @@ namespace FastProfiler
 
         public override void Start()
         {
-            
+            base.Start();
         }
 
         public override void End()
         {
-            
+            base.End(); 
         }
     }
 
@@ -66,12 +84,12 @@ namespace FastProfiler
         
         public override void Start()
         {
-            
+            base.Start();   
         }
 
         public override void End()
         {
-            
+            base.End();  
         }
     }
 }

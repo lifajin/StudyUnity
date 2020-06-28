@@ -20,7 +20,12 @@ public class Inject
     public static int GetMax(int a, int b)
     {
         return a;
-    } 
+    }
+
+    public static void SetGameObj(GameObject obj, bool ret)
+    {
+        obj.SetActive(ret);
+    }
 }
 
 public class Test : MonoBehaviour
