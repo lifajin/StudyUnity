@@ -31,6 +31,7 @@ public class InjectClass : MonoBehaviour
             golist.Add(ngo);
         }
 
+        
         if (2 == op)
         {
             for (int i = 0; i < golist.Count; i++)

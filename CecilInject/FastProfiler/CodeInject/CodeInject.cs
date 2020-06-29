@@ -2,8 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using Mono.Cecil;
 using Mono.Cecil.Cil;
+using MethodAttributes = Mono.Cecil.MethodAttributes;
 
 namespace FastProfiler
 {
@@ -42,6 +44,18 @@ namespace FastProfiler
                         //Console.WriteLine("class attribute "+attr.AttributeType.Name+" class name is "+typeDef.Name);
                         if (attr.AttributeType.Name == FastProfileClassAttribute)
                         {
+                            if (typeDef.IsAbstract)
+                            {
+                                Console.WriteLine("[error] the type "+typeDef.Name+" is abstract cannot inject");
+                                continue;
+                            }
+                            
+                            if (typeDef.IsInterface)
+                            {
+                                Console.WriteLine("[error] the type "+typeDef.Name+" is interface cannot inject");
+                                continue;
+                            }
+                            
                             classesInject.Add(typeDef);
                         }
                     }
@@ -137,6 +151,8 @@ namespace FastProfiler
         
         public static void AddProfilerClass(TypeDefinition typeDef)
         {
+            bool hasFinalizeMethod = false;
+            
             // 开始注入IL代码
             foreach (var methodDef in typeDef.Methods)
             {
@@ -160,6 +176,8 @@ namespace FastProfiler
 
                 if (methodDef.Name == "Finalize")
                 {
+                    hasFinalizeMethod = true;
+                    
                     Console.WriteLine("type "+typeDef.Name+" the method "+methodDef.Name+" is Finalize");
                     
                     var finalizeRef = methodDef.Module.ImportReference(classInstanceWithdraw);
@@ -169,6 +187,49 @@ namespace FastProfiler
                     
                     ilProcessor.InsertBefore(startPoint, ilProcessor.Create(OpCodes.Call, finalizeRef));
                 }
+            }
+
+            if (false == hasFinalizeMethod)
+            { 
+                var finalizeRef = typeDef.Module.ImportReference(classInstanceWithdraw);
+                
+                Console.WriteLine("create finalize method for type "+typeDef.Name);
+                var finalizeMethodDef = new MethodDefinition("Finalize",
+                    MethodAttributes.Family | MethodAttributes.HideBySig | MethodAttributes.Virtual |
+                    MethodAttributes.ReuseSlot, typeDef.Module.Import(typeof (void)));
+                
+/*
+                var systemType = typeDef.Module.ImportReference(typeof(System.Object));
+                var baseFinalizeMethodDef = systemType.Resolve().Methods.Single(m => m.Name == "Finalize");
+                typeDef.Module.ImportReference(baseFinalizeMethodDef);
+*/            
+
+                var ilProcessor = finalizeMethodDef.Body.GetILProcessor();
+                
+                var nop = ilProcessor.Create(OpCodes.Nop);
+                var ret = ilProcessor.Create (OpCodes.Ret);
+                var leave = ilProcessor.Create (OpCodes.Leave, ret);
+                
+                var ldarg = ilProcessor.Create(OpCodes.Ldarg_0);
+                var callBase = ilProcessor.Create(OpCodes.Call, finalizeRef);
+                var final = ilProcessor.Create(OpCodes.Endfinally);
+                
+                ilProcessor.Append( nop);
+                ilProcessor.InsertAfter(nop, leave);
+                ilProcessor.InsertAfter(leave, ldarg);
+                ilProcessor.InsertAfter(ldarg, callBase);
+                ilProcessor.InsertAfter(callBase, final);
+                ilProcessor.InsertAfter(final, ret);
+                
+                var handler = new ExceptionHandler (ExceptionHandlerType.Finally) {
+                    TryStart = leave,
+                    TryEnd = ldarg,
+                    HandlerStart = ldarg,
+                    HandlerEnd = ret,
+                };
+                
+                finalizeMethodDef.Body.ExceptionHandlers.Add (handler);
+                typeDef.Methods.Add(finalizeMethodDef);
             }
         }
 

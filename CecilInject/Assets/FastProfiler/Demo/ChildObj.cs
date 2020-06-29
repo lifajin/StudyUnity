@@ -9,6 +9,7 @@ public class ChildObj : EmptyObj
     void Start()
     {
         
+        
     }
 
     // Update is called once per frame

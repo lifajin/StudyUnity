@@ -112,4 +112,5 @@ public static class InjectTool
         ilProcessor.InsertBefore(insertPoint, label3);
         ilProcessor.InsertBefore(insertPoint, ilProcessor.Create(OpCodes.Ret));
     }
+    
 }

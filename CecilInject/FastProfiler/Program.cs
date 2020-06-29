@@ -44,6 +44,7 @@ namespace FastProfiler
                 CodeInject.ReplaceAllMethodNeedUnityWrapper(assembly);
                     
                 assembly.Write(assmeblyPath, new WriterParameters { WriteSymbols = true });
+                //assembly.Write("/Users/fafawudi/MyProgram/Tools/Fixed/Assembly-CSharp.dll", new WriterParameters { WriteSymbols = false });
             }
             
             catch(Exception e)

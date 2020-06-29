@@ -17,19 +17,10 @@ public class EmptyObj : MonoBehaviour
         
     }
     
-    ~EmptyObj()
-    {
-        
-    }
 }
 
 [FastProfileClassAttribute]
 public class EmptyClassData
 {
     public int age;
-
-    ~EmptyClassData()
-    {
-        
-    }
 }
