@@ -9,6 +9,7 @@ using MethodAttributes = Mono.Cecil.MethodAttributes;
 
 namespace FastProfiler
 {
+    //性能检测代码注入
     public static partial class CodeInject
     {
         //
@@ -142,10 +143,13 @@ namespace FastProfiler
             ilProcessor.InsertBefore(startPoint, ilProcessor.Create(OpCodes.Call, startRef));
             
             var retInstructions = methodDef.Body.Instructions.Where(i => i.OpCode == OpCodes.Ret).ToList();
+            //将所有ret都直接修改为注入代码 这样所有跳转和移除处理的引用都变成了 注入代码。然后再注入代码后面添加上ret语句
             foreach (var retIns in retInstructions)
             {
-                ilProcessor.InsertBefore(retIns, ilProcessor.Create(OpCodes.Ldstr, methodDef.DeclaringType.Name+"::"+methodDef.Name));
+                retIns.OpCode = OpCodes.Ldstr;
+                retIns.Operand = methodDef.DeclaringType.Name + "::" + methodDef.Name;
                 ilProcessor.InsertBefore(retIns, ilProcessor.Create(OpCodes.Call, endRef));
+                ilProcessor.InsertBefore(retIns, ilProcessor.Create(OpCodes.Ret));
             }
         }
         

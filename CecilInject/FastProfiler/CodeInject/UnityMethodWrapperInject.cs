@@ -6,6 +6,7 @@ using Mono.Cecil.Cil;
 
 namespace FastProfiler
 {
+    //unity
     public static partial class CodeInject
     {
         #region Fast Profiler Unity Wrapper Name

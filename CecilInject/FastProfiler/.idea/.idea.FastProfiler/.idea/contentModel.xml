@@ -6,7 +6,8 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="CodeInject" t="Include">
-        <e p="CodeInject.cs" t="Include" />
+        <e p="ListenEvtInject.cs" t="Include" />
+        <e p="ProfilerCodeInject.cs" t="Include" />
         <e p="UnityMethodWrapperInject.cs" t="Include" />
       </e>
       <e p="FastProfiler" t="IncludeRecursive">
