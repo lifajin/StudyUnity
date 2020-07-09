@@ -14,7 +14,6 @@ public class InjectClass : MonoBehaviour
     void Start()
     {
         Debug.LogError("start set active false");
-        gameObject.SetActive(false);
         gameObject.SetActive(true);
     }
 

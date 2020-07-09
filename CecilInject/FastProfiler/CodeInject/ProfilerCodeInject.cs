@@ -146,10 +146,13 @@ namespace FastProfiler
             //将所有ret都直接修改为注入代码 这样所有跳转和移除处理的引用都变成了 注入代码。然后再注入代码后面添加上ret语句
             foreach (var retIns in retInstructions)
             {
+                Console.WriteLine(retIns);
                 retIns.OpCode = OpCodes.Ldstr;
                 retIns.Operand = methodDef.DeclaringType.Name + "::" + methodDef.Name;
-                ilProcessor.InsertBefore(retIns, ilProcessor.Create(OpCodes.Call, endRef));
-                ilProcessor.InsertBefore(retIns, ilProcessor.Create(OpCodes.Ret));
+                Console.WriteLine(retIns);
+                
+                ilProcessor.InsertAfter(retIns, ilProcessor.Create(OpCodes.Ret));
+                ilProcessor.InsertAfter(retIns, ilProcessor.Create(OpCodes.Call, endRef));
             }
         }
         

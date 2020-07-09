@@ -25,7 +25,7 @@ namespace FastProfiler
         /// </summary>
         public static void StartRecordMethod(string methodName)
         {
-            Debug.LogError("StartRecordMethod::"+methodName);
+            Debug.LogError("开始性能测试::"+methodName);
             var record = GetMethodRecord(methodName);
             if (InvalidFrame != record.Duration.startFrame)
             {
@@ -50,7 +50,7 @@ namespace FastProfiler
         /// <param name="methodName"></param>
         public static void EndRecordMethod(string methodName)
         {
-            Debug.LogError("EndRecordMethod::"+methodName);
+            Debug.LogError("结束性能测试::"+methodName);
             var record = GetMethodRecord(methodName);
             record.End();
             NotifyListen(record);
@@ -83,12 +83,12 @@ namespace FastProfiler
         
         public static void ClassInstanceCreated()
         {
-            Debug.LogError("ClassInstanceCreated");
+            Debug.LogError("++对象的构造函数++");
         }
         
         public static void ClassInstanceWithdraw()
         {
-            Debug.LogError("ClassInstanceWithdraw");
+            Debug.LogError("--对象的析构函数--");
         }
     }
 }
