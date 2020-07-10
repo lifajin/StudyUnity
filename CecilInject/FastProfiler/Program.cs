@@ -6,6 +6,8 @@ namespace FastProfiler
 {
     internal class Program
     {
+        public static bool isOutDebug = true;
+        
         public static void Main(string[] args)
         {
             var assmeblyPath = args[0];

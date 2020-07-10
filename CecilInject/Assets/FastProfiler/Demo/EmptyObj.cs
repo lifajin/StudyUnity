@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[FastProfileClassAttribute]
+//[FastProfileClass]
 public class EmptyObj : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -19,7 +19,7 @@ public class EmptyObj : MonoBehaviour
     
 }
 
-[FastProfileClassAttribute]
+//[FastProfileClass]
 public class EmptyClassData
 {
     public int age;

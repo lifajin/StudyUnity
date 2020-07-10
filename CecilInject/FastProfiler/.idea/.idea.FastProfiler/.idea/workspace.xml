@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c20d9e01-badf-46a2-bb4b-573841101c2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CodeInject/CecilHelperFunc.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Editor.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Editor/InjectTool.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Editor/InjectTool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/FastProfiler/Demo/ChildObj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/FastProfiler/Demo/ChildObj.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/FastProfiler/Demo/EmptyObj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/FastProfiler/Demo/EmptyObj.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/FastProfiler/Demo/InjectClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/FastProfiler/Demo/InjectClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/FastProfiler/Scripts/FastProfilerAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/FastProfiler/Scripts/FastProfilerAttribute.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Plugins/Cecil.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Plugins/Cecil/Mono.Cecil.Mdb.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Plugins/Cecil/Mono.Cecil.Mdb.dll.meta" beforeDir="false" />
@@ -13,18 +17,17 @@
       <change beforePath="$PROJECT_DIR$/../Assets/Plugins/Cecil/Mono.Cecil.Pdb.dll.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Plugins/Cecil/Mono.Cecil.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Plugins/Cecil/Mono.Cecil.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Plugins/FastProfiler.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Assets/Plugins/FastProfiler.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Scenes.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Test.unity" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Test.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Scripts.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Test.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Test.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FastProfiler/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FastProfiler/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FastProfiler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FastProfiler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeInject/ListenEvtInject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CodeInject/ListenEvtInject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeInject/ListenEvtInject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CodeInject/ILExample.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastProfiler/Scripts/FastProfiler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FastProfiler/Scripts/FastProfiler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FastProfiler/Scripts/UnityMethodWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FastProfiler/Scripts/UnityMethodWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,58 +37,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CodeInject/UnityMethodWrapperInject.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding>
-                <marker date="1593487152447" expanded="true" signature="6:117" ph="..." />
-                <marker date="1593487152447" expanded="true" signature="141:3045" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="198:3043" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="213:446" ph="Fast Profiler Unity Wrapper Name" />
-                <marker date="1593487152447" expanded="true" signature="464:609" ph="Fast Profiler Unity Wrapper Method Reference" />
-                <marker date="1593487152447" expanded="true" signature="722:1294" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="849:1284" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="919:1270" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="1000:1252" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="1102:1230" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="1392:1872" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="1498:1861" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="1571:1847" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="1632:1829" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="1726:1807" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="1947:3037" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="2078:3003" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="2197:2989" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="2331:2971" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="2474:2949" ph="{...}" />
-                <marker date="1593487152447" expanded="true" signature="2585:2923" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CodeInject/ListenEvtInject.cs">
+        <entry file="file://$PROJECT_DIR$/CodeInject/ILExample.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="47" column="20" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="299">
+              <caret line="82" column="25" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="25" />
               <folding>
-                <marker date="1593659219797" expanded="true" signature="6:73" ph="..." />
-                <marker date="1593659219797" expanded="true" signature="97:1341" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="142:1339" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="225:1182" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="295:478" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="383:447" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="576:729" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="633:698" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="794:844" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="940:993" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="1048:1172" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="1102:1156" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="1230:1267" ph="{...}" />
-                <marker date="1593659219797" expanded="true" signature="1300:1333" ph="{...}" />
+                <marker date="1594308441898" expanded="false" signature="6:73" ph="..." />
+                <marker date="1594308441898" expanded="true" signature="97:1964" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="125:1962" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="196:1430" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="266:449" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="354:418" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="547:700" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="604:669" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="765:815" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="911:964" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="1036:1090" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="1116:1305" ph="/* 语法实现 ... */" />
+                <marker date="1594308441898" expanded="true" signature="1364:1420" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="1472:1526" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="1553:1575" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="1632:1713" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="1759:1805" ph="{...}" />
+                <marker date="1594308441898" expanded="true" signature="1841:1956" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -103,61 +78,98 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+            <state relative-caret-position="205">
+              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FastProfiler/Scripts/UnityMethodWrapper.cs">
+        <entry file="file://$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="238">
+              <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
               <folding>
-                <marker date="1593489451180" expanded="true" signature="42:282" ph="{...}" />
-                <marker date="1593489451180" expanded="true" signature="80:280" ph="{...}" />
-                <marker date="1593489451180" expanded="true" signature="172:274" ph="{...}" />
+                <marker date="1594309784342" expanded="false" signature="6:211" ph="..." />
+                <marker date="1594309784342" expanded="true" signature="235:10479" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="295:10477" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="873:1079" ph="/// 获取所有需要插入代码的元素 类和方法 ... " />
+                <marker date="1594309784342" expanded="true" signature="1270:3666" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="1496:3656" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="1564:1647" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="1757:2085" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="1820:1978" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="2193:2757" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="2394:2739" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="2464:2635" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="2838:3642" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="2913:3624" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="3010:3602" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="3123:3576" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="3209:3448" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="3775:4853" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="3902:4843" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="3966:4829" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="4047:4811" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="4134:4248" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="4311:4423" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="4491:4605" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="4674:4789" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="5175:6546" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="6098:6536" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="6623:10306" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="6769:8204" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="6831:6898" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="6960:7515" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="7567:8190" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="8249:10296" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="8734:9006" ph="/* var systemType = typeDef.Module.ImportReference(typeof(System.Object)); ... */" />
+                <marker date="1594309784342" expanded="true" signature="9963:10136" ph="{...}" />
+                <marker date="1594309784342" expanded="true" signature="10378:10471" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FastProfiler/Scripts/FastProfilerData.cs">
+        <entry file="file://$PROJECT_DIR$/CodeInject/CecilHelperFunc.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="400">
+              <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
               <folding>
-                <marker date="1592992775124" expanded="false" signature="6:78" ph="..." />
-                <marker date="1592992775124" expanded="true" signature="102:1832" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="137:417" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="312:347" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="375:410" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="457:513" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="554:1009" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="676:747" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="792:825" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="870:920" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="955:1003" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="1072:1451" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="1206:1280" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="1318:1364" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="1400:1445" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="1514:1830" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="1574:1647" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="1693:1742" ph="{...}" />
-                <marker date="1592992775124" expanded="true" signature="1778:1824" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="6:36" ph="..." />
+                <marker date="1594309784333" expanded="true" signature="60:1615" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="102:1613" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="231:786" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="313:371" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="417:691" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="494:677" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="578:659" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="887:1607" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="971:1029" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="1089:1365" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="1168:1351" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="1252:1333" ph="{...}" />
+                <marker date="1594309784333" expanded="true" signature="1458:1572" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/21/e3467fd7/ILProcessor.cs">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/35/38fd3761/TypeReference.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3296">
-              <caret line="207" column="27" selection-start-line="207" selection-start-column="27" selection-end-line="207" selection-end-column="27" />
+            <state relative-caret-position="295">
+              <caret line="333" column="34" selection-start-line="333" selection-start-column="34" selection-end-line="333" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/99/fa05c4c4/MethodDefinition.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -165,7 +177,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FastProfiler/Scripts/FastProfiler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="480">
               <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <marker date="1593489490271" expanded="true" signature="6:92" ph="..." />
@@ -203,18 +215,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="64">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="26" />
               <folding>
-                <marker date="1593415487250" expanded="true" signature="6:65" ph="..." />
-                <marker date="1593415487250" expanded="true" signature="89:2446" ph="{...}" />
-                <marker date="1593415487250" expanded="true" signature="118:2444" ph="{...}" />
-                <marker date="1593415487250" expanded="true" signature="171:2438" ph="{...}" />
-                <marker date="1593415487250" expanded="true" signature="341:2038" ph="{...}" />
-                <marker date="1593415487250" expanded="true" signature="1342:1439" ph="{...}" />
-                <marker date="1593415487250" expanded="true" signature="1509:1603" ph="{...}" />
-                <marker date="1593415487250" expanded="true" signature="2082:2257" ph="{...}" />
-                <marker date="1593415487250" expanded="true" signature="2357:2428" ph="{...}" />
+                <marker date="1594296906570" expanded="true" signature="6:65" ph="..." />
+                <marker date="1594296906570" expanded="true" signature="89:2501" ph="{...}" />
+                <marker date="1594296906570" expanded="true" signature="118:2499" ph="{...}" />
+                <marker date="1594296906570" expanded="true" signature="226:2493" ph="{...}" />
+                <marker date="1594296906570" expanded="true" signature="396:2093" ph="{...}" />
+                <marker date="1594296906570" expanded="true" signature="1397:1494" ph="{...}" />
+                <marker date="1594296906570" expanded="true" signature="1564:1658" ph="{...}" />
+                <marker date="1594296906570" expanded="true" signature="2137:2312" ph="{...}" />
+                <marker date="1594296906570" expanded="true" signature="2412:2483" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -230,94 +242,108 @@
       <find>jmp</find>
       <find>OutDir</find>
       <find>Configuration</find>
-      <find>&lt;AddListen&gt;b__0</find>
       <find>&lt;&gt;c__DisplayClass17_0</find>
       <find>c__DisplayClass17_0</find>
+      <find>&lt;&gt;c__DisplayClass1_1</find>
+      <find>&lt;AddListen&gt;b__0</find>
+      <find>AddProfilerMethod</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/13CE5A34-EE55-494B-8BA6-82AD5D726C05/d1/6a65b7fd/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/48/ad3c517a/020000FE.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/839F26AF-031F-42E5-A120-AC97DB2C9956/05/752363a7/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/89F5F67B-E740-4BC5-B353-D339C3EB64BC/cc/5c60357f/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/78178AC8-AE9F-43C4-B547-6AD5B33EF5A4/93/f5e71b7d/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CodeInject/UnityMethodWrapperInject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/0CB2C6B1-3477-4FA9-8FE0-F8306ED00B2E/17/0995bd18/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/bf/0347af23/MethodBody.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/af/3bd2cde7/OpCode.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/216EAA16-B93C-48B8-A06A-3C9C878AF40F/e3/62140720/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/21/e3467fd7/ILProcessor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/FA7AEF7E-9FAA-4503-BC74-2529D1B11516/90/a21cfa44/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/359B2B54-051D-4BD7-B2FA-81321DB05F09/a9/69affd96/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/1f/dd954ddc/OpCodes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/62/f0aafe82/02000080.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/0d/204667de/NativeAsStructAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/19/982e20b4/MarshalUnityObjectAs.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/5748DD72-9FCF-419A-84A0-BC8F343D9037/bb/25ff7c98/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/59/5deaed7f/MemberReference.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/d2/f41e64be/IgnoreAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/c8/b4809c6c/020000B9.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/FDB9BFFD-20F8-4D47-950D-43D4BB586165/5a/798dc529/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/5A8DC0B6-0CDC-4899-9FBB-7B8BED73971C/c4/64a14ec3/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/84/d9aa37c5/NativeHeaderAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/7DB86A41-92C1-4C22-9B36-AE59F547DC29/b8/807a2ff8/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/e7/51719c1f/02000089.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/13/2b07b08d/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/492F7250-3934-4E25-A1A0-FA2B39EBFDB7/28/f8d081f1/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/99/fa05c4c4/MethodDefinition.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/e9/958cbbbe/NativeConditionalAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/6A8D6217-3B25-4E77-8B4C-2AFCBC25C570/53/3c3b8290/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/C721D913-996B-4262-9E46-C43AEC407769/3a/1509992f/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FastProfiler/Scripts/UnityMethodWrapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/84D81E58-459F-46F6-A358-1BCBD457DC35/96/97946dd1/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/7F056ABD-9661-42F5-93B6-DC34B463B210/3b/825c7df7/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/865338C4-BA4E-4D18-A1AE-3D7CEF9969EC/92/05bb0f32/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/ce/cc9b016a/NotNullAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FastProfiler/Scripts/FastProfiler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/9EF6AB59-27B8-40FB-B58C-EEF8608A5BFD/62/cbd1e343/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/7e/52239612/StaticAccessorAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/99B16954-24A8-48BF-AD8C-B980A5289FB0/c7/a2438b90/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/00/a055158f/StaticAccessorType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FastProfiler/Scripts/FastProfilerAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/1f/dd954ddc/OpCodes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/BD49D7BF-5875-4DD1-814A-B163EC971256/b4/d00f2171/02000004pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FastProfiler/Scripts/FastProfiler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/1B39FEAA-51B7-4A8F-915E-657AA2161F50/bf/3477fcd1/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FastProfiler/Scripts/FastProfilerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/59/5deaed7f/MemberReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FastProfiler/Scripts/UnityMethodWrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/C16B706B-31F6-428C-A8B6-F3263D8E4CD5/52/22c49cb4/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/2C08849E-889A-4B5B-96A8-51F4BE54F167/6c/98725eba/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/f5/699307d0/CodegenOptions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/04/f2ea6104/NativePropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/18/51861a6c/0200008B.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/CD97C6CA-BC30-49E1-BAE7-CB7638F908F3/e8/509d8708/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/f9/d95bd2b9/NativeThrowsAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/c6/ace601dd/020000FF.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/2b/cf7234b1/MethodReference.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CodeInject/ListenEvtInject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/38/28c40c55/NativeWritableSelfAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/BA78166F-89C5-48A1-8BFD-221F28899C2D/3c/21ba9294/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/C721D913-996B-4262-9E46-C43AEC407769/63/e64c89d7/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/78178AC8-AE9F-43C4-B547-6AD5B33EF5A4/0d/f252a211/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A62EF3B-49F1-4D16-B212-21B9B5A4792C/59/bfb9dd59/MethodImplAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/18/7be5a7bc/NativeMethodAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/a7/1aaece3e/AssemblyDefinition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/af/3bd2cde7/OpCode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/9EF6AB59-27B8-40FB-B58C-EEF8608A5BFD/62/cbd1e343/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/35/38fd3761/TypeReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/13/2b07b08d/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/d4/a8bcf874/020000BF.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/99B16954-24A8-48BF-AD8C-B980A5289FB0/c7/a2438b90/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/8c/51c095fc/Code.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/c4/69fa005c/InstructionCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/8e/1010d0f1/Instruction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/52/a911bab7/ExceptionHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/ff/1a64ba6e/ModuleDefinition.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/d3/da2efba5/TargetType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/1B39FEAA-51B7-4A8F-915E-657AA2161F50/0a/d603b6b6/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/77766CE3-54BE-42AE-9FEB-D915C2FCB502/60/911ab4b3/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/c6/ace601dd/020000FF.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/e5/8061308e/TypeDefinition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/c4/69fa005c/InstructionCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/BA78166F-89C5-48A1-8BFD-221F28899C2D/3c/21ba9294/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/bf/0347af23/MethodBody.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/99/fa05c4c4/MethodDefinition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/18/51861a6c/0200008B.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/2C08849E-889A-4B5B-96A8-51F4BE54F167/6c/98725eba/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/2b/cf7234b1/MethodReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/CD97C6CA-BC30-49E1-BAE7-CB7638F908F3/e8/509d8708/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/52/a911bab7/ExceptionHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/13CE5A34-EE55-494B-8BA6-82AD5D726C05/d1/6a65b7fd/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/77766CE3-54BE-42AE-9FEB-D915C2FCB502/60/911ab4b3/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/48/ad3c517a/020000FE.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/EB5F899A-9E00-4319-80C5-0550F334A433/31/f4c3133f/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/54649C4C-1523-4C0E-8B89-BC96AAFFB229/5b/eb6474fc/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/ed/19d87a41/UnmarshalledAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/C721D913-996B-4262-9E46-C43AEC407769/63/e64c89d7/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/1f/9b3a5667/Collection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/8e/1010d0f1/Instruction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/1B39FEAA-51B7-4A8F-915E-657AA2161F50/0a/d603b6b6/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/21/e3467fd7/ILProcessor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/78178AC8-AE9F-43C4-B547-6AD5B33EF5A4/0d/f252a211/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/78178AC8-AE9F-43C4-B547-6AD5B33EF5A4/93/f5e71b7d/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/0CB2C6B1-3477-4FA9-8FE0-F8306ED00B2E/17/0995bd18/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/839F26AF-031F-42E5-A120-AC97DB2C9956/05/752363a7/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/54649C4C-1523-4C0E-8B89-BC96AAFFB229/5b/eb6474fc/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/89F5F67B-E740-4BC5-B353-D339C3EB64BC/cc/5c60357f/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/359B2B54-051D-4BD7-B2FA-81321DB05F09/a9/69affd96/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/a7/1aaece3e/AssemblyDefinition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/62/f0aafe82/02000080.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A62EF3B-49F1-4D16-B212-21B9B5A4792C/59/bfb9dd59/MethodImplAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/216EAA16-B93C-48B8-A06A-3C9C878AF40F/e3/62140720/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/FA7AEF7E-9FAA-4503-BC74-2529D1B11516/90/a21cfa44/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/ff/1a64ba6e/ModuleDefinition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/00/a055158f/StaticAccessorType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8A4D4E0D-7B0C-47E7-A71C-5682E217C026/85/01d9c3d3/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/FDB9BFFD-20F8-4D47-950D-43D4BB586165/5a/798dc529/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/F5492E56-3B88-462B-B926-6E495AF470CC/01/44d6891a/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/5A8DC0B6-0CDC-4899-9FBB-7B8BED73971C/c4/64a14ec3/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/7e/52239612/StaticAccessorAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/5748DD72-9FCF-419A-84A0-BC8F343D9037/bb/25ff7c98/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/9d/99e87bb1/VisibleToOtherModulesAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/d3/da2efba5/TargetType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/c8/b4809c6c/020000B9.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/ed/19d87a41/UnmarshalledAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/38/28c40c55/NativeWritableSelfAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/492F7250-3934-4E25-A1A0-FA2B39EBFDB7/28/f8d081f1/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/F51D0BFE-2F73-4AF4-8A07-85116446A53D/02/86d4c84d/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/d2/f41e64be/IgnoreAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeInject/ILExample.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/9ECDB782-EA8F-4999-8D52-9C3B3AC090C3/07/82d56793/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeInject/UnityMethodWrapperInject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/6A8D6217-3B25-4E77-8B4C-2AFCBC25C570/53/3c3b8290/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/04/f2ea6104/NativePropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/f9/d95bd2b9/NativeThrowsAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/7DB86A41-92C1-4C22-9B36-AE59F547DC29/b8/807a2ff8/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/ce/cc9b016a/NotNullAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/f5/699307d0/CodegenOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/28CDCA17-04D2-4917-8179-5499C297B78B/e7/51719c1f/02000089.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/F51D0BFE-2F73-4AF4-8A07-85116446A53D/4a/37bc0852/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/84/d9aa37c5/NativeHeaderAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/35C109E3-81CA-4E9A-BC8E-93E383BA70E2/08/57214f77/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/e9/958cbbbe/NativeConditionalAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/7F056ABD-9661-42F5-93B6-DC34B463B210/3b/825c7df7/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/18/7be5a7bc/NativeMethodAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CodeInject/CecilHelperFunc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/865338C4-BA4E-4D18-A1AE-3D7CEF9969EC/92/05bb0f32/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/19/982e20b4/MarshalUnityObjectAs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/8FDAA713-A830-47DD-AABA-1DDD5911B7C3/17/04a1dea2/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/C721D913-996B-4262-9E46-C43AEC407769/3a/1509992f/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/35C109E3-81CA-4E9A-BC8E-93E383BA70E2/1c/b21169ad/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D0F11A-45A0-4DFE-A97F-4DA949BDCE6F/0d/204667de/NativeAsStructAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/84D81E58-459F-46F6-A358-1BCBD457DC35/96/97946dd1/02000002pdb.il" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -329,11 +355,13 @@
         <option value="$PROJECT_DIR$/Main.csproj" />
         <option value="$PROJECT_DIR$/CodeInject/CodeInject.cs" />
         <option value="$PROJECT_DIR$/CodeInject/UnityMethodWrapperInject.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
-        <option value="$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs" />
         <option value="$PROJECT_DIR$/FastProfiler/Scripts/UnityMethodWrapper.cs" />
         <option value="$PROJECT_DIR$/FastProfiler/Scripts/FastProfiler.cs" />
         <option value="$PROJECT_DIR$/CodeInject/ListenEvtInject.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/CodeInject/ILExample.cs" />
+        <option value="$PROJECT_DIR$/CodeInject/CecilHelperFunc.cs" />
+        <option value="$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs" />
       </list>
     </option>
   </component>
@@ -351,7 +379,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1680" />
     <option name="y" value="209" />
     <option name="width" value="1920" />
@@ -374,6 +402,19 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="FastProfiler" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Main" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FastProfiler" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Main" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="FastProfiler" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Main" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assemblies" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
@@ -479,11 +520,12 @@
       <workItem from="1593485168518" duration="3968000" />
       <workItem from="1593519899572" duration="1337000" />
       <workItem from="1593655668628" duration="3111000" />
+      <workItem from="1594296624741" duration="8863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48262000" />
+    <option name="totallyTimeSpent" value="57125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,16 +537,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="209" width="1920" height="1057" extended-state="0" />
+    <frame x="1680" y="209" width="1920" height="1057" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19808307" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17039403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43626943" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39274612" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
@@ -515,8 +557,8 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.1388601" />
-      <window_info active="true" anchor="right" id="IL Viewer" order="0" visible="true" weight="0.51597446" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.29090908" />
+      <window_info active="true" anchor="right" id="IL Viewer" order="0" visible="true" weight="0.42758253" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -524,13 +566,13 @@
       <window_info anchor="right" id="Database" order="5" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19595315" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19987507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43626943" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4053476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
@@ -541,8 +583,8 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.2777202" />
-      <window_info anchor="right" id="IL Viewer" order="0" weight="0.21458998" />
+      <window_info anchor="bottom" id="Build" order="14" visible="true" weight="0.29090908" />
+      <window_info active="true" anchor="right" id="IL Viewer" order="0" visible="true" weight="0.42785758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -562,12 +604,23 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs" initialLine="42">
+            <startOffsets>
+              <option value="1603" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1629" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FastProfiler/Scripts/CodeInject.meta" />
-    <entry file="file://$PROJECT_DIR$/FastProfiler/Scripts/CodeInject/CodeInject.cs.meta" />
     <entry file="file://$PROJECT_DIR$/FastProfiler/Scripts/CodeInject/CodeInject.cs" />
     <entry file="file:///Library/Frameworks/Mono.framework/Versions/6.0.0/lib/mono/msbuild/Current/bin/Microsoft.Common.CurrentVersion.targets">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,13 +828,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FastProfiler/Class1.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/99/fa05c4c4/MethodDefinition.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/52/a911bab7/ExceptionHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -821,53 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="171" column="40" selection-start-line="171" selection-start-column="36" selection-end-line="171" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="149" column="46" selection-start-line="149" selection-start-column="46" selection-end-line="149" selection-end-column="46" />
-          <folding>
-            <marker date="1593489143202" expanded="false" signature="6:211" ph="..." />
-            <marker date="1593489143202" expanded="true" signature="235:10860" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="295:10858" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="873:1079" ph="/// 获取所有需要插入代码的元素 类和方法 ... " />
-            <marker date="1593489143202" expanded="true" signature="1270:4047" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="1496:4037" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="1559:2612" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="1644:2594" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="1868:2572" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="1946:2162" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="2244:2461" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="2672:3300" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="2745:3282" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="2840:3260" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="3112:3234" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="3381:4023" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="3456:4005" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="3553:3983" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="3831:3957" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="4156:5234" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="4283:5224" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="4347:5210" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="4428:5192" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="4515:4629" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="4692:4804" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="4872:4986" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="5055:5170" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="5556:6927" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="6479:6917" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="7004:10687" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="7150:8585" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="7212:7279" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="7341:7896" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="7948:8571" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="8630:10677" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="9115:9387" ph="/* var systemType = typeDef.Module.ImportReference(typeof(System.Object)); ... */" />
-            <marker date="1593489143202" expanded="true" signature="10344:10517" ph="{...}" />
-            <marker date="1593489143202" expanded="true" signature="10759:10852" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FastProfiler/Scripts/FastProfiler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
+        <state relative-caret-position="480">
           <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
           <folding>
             <marker date="1593489490271" expanded="true" signature="6:92" ph="..." />
@@ -995,24 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <marker date="1593415487250" expanded="true" signature="6:65" ph="..." />
-            <marker date="1593415487250" expanded="true" signature="89:2446" ph="{...}" />
-            <marker date="1593415487250" expanded="true" signature="118:2444" ph="{...}" />
-            <marker date="1593415487250" expanded="true" signature="171:2438" ph="{...}" />
-            <marker date="1593415487250" expanded="true" signature="341:2038" ph="{...}" />
-            <marker date="1593415487250" expanded="true" signature="1342:1439" ph="{...}" />
-            <marker date="1593415487250" expanded="true" signature="1509:1603" ph="{...}" />
-            <marker date="1593415487250" expanded="true" signature="2082:2257" ph="{...}" />
-            <marker date="1593415487250" expanded="true" signature="2357:2428" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FastProfiler/FastProfiler.csproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
@@ -1020,32 +1001,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.csproj">
+    <entry file="file://$PROJECT_DIR$/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="60" column="14" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        <state relative-caret-position="64">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <marker date="1594296906570" expanded="true" signature="6:65" ph="..." />
+            <marker date="1594296906570" expanded="true" signature="89:2501" ph="{...}" />
+            <marker date="1594296906570" expanded="true" signature="118:2499" ph="{...}" />
+            <marker date="1594296906570" expanded="true" signature="226:2493" ph="{...}" />
+            <marker date="1594296906570" expanded="true" signature="396:2093" ph="{...}" />
+            <marker date="1594296906570" expanded="true" signature="1397:1494" ph="{...}" />
+            <marker date="1594296906570" expanded="true" signature="1564:1658" ph="{...}" />
+            <marker date="1594296906570" expanded="true" signature="2137:2312" ph="{...}" />
+            <marker date="1594296906570" expanded="true" signature="2412:2483" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodeInject/ListenEvtInject.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/99/fa05c4c4/MethodDefinition.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="20" />
+        <state relative-caret-position="256">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeInject/ProfilerCodeInject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
           <folding>
-            <marker date="1593659219797" expanded="true" signature="6:73" ph="..." />
-            <marker date="1593659219797" expanded="true" signature="97:1341" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="142:1339" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="225:1182" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="295:478" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="383:447" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="576:729" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="633:698" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="794:844" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="940:993" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="1048:1172" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="1102:1156" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="1230:1267" ph="{...}" />
-            <marker date="1593659219797" expanded="true" signature="1300:1333" ph="{...}" />
+            <marker date="1594309784342" expanded="false" signature="6:211" ph="..." />
+            <marker date="1594309784342" expanded="true" signature="235:10479" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="295:10477" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="873:1079" ph="/// 获取所有需要插入代码的元素 类和方法 ... " />
+            <marker date="1594309784342" expanded="true" signature="1270:3666" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="1496:3656" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="1564:1647" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="1757:2085" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="1820:1978" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="2193:2757" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="2394:2739" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="2464:2635" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="2838:3642" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="2913:3624" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="3010:3602" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="3123:3576" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="3209:3448" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="3775:4853" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="3902:4843" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="3966:4829" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="4047:4811" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="4134:4248" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="4311:4423" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="4491:4605" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="4674:4789" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="5175:6546" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="6098:6536" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="6623:10306" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="6769:8204" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="6831:6898" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="6960:7515" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="7567:8190" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="8249:10296" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="8734:9006" ph="/* var systemType = typeDef.Module.ImportReference(typeof(System.Object)); ... */" />
+            <marker date="1594309784342" expanded="true" signature="9963:10136" ph="{...}" />
+            <marker date="1594309784342" expanded="true" signature="10378:10471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/28CDCA17-04D2-4917-8179-5499C297B78B/35/38fd3761/TypeReference.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="333" column="34" selection-start-line="333" selection-start-column="34" selection-end-line="333" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeInject/CecilHelperFunc.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+          <folding>
+            <marker date="1594309784333" expanded="true" signature="6:36" ph="..." />
+            <marker date="1594309784333" expanded="true" signature="60:1615" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="102:1613" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="231:786" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="313:371" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="417:691" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="494:677" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="578:659" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="887:1607" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="971:1029" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="1089:1365" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="1168:1351" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="1252:1333" ph="{...}" />
+            <marker date="1594309784333" expanded="true" signature="1458:1572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeInject/ILExample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="25" />
+          <folding>
+            <marker date="1594308441898" expanded="false" signature="6:73" ph="..." />
+            <marker date="1594308441898" expanded="true" signature="97:1964" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="125:1962" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="196:1430" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="266:449" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="354:418" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="547:700" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="604:669" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="765:815" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="911:964" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="1036:1090" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="1116:1305" ph="/* 语法实现 ... */" />
+            <marker date="1594308441898" expanded="true" signature="1364:1420" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="1472:1526" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="1553:1575" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="1632:1713" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="1759:1805" ph="{...}" />
+            <marker date="1594308441898" expanded="true" signature="1841:1956" ph="{...}" />
           </folding>
         </state>
       </provider>

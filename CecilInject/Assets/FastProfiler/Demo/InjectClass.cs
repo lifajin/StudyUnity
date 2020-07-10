@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[FastProfileClass]
+//[FastProfileClass]
 public class InjectClass : MonoBehaviour
 {
     public GameObject obj;
     
-    [FastProfileMethod]
+    //[FastProfileMethod]
     // Start is called before the first frame update
     void Start()
     {

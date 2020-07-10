@@ -38,42 +38,34 @@ namespace FastProfiler
             var module = assembly.MainModule;
             foreach (var typeDef in module.Types)
             {
-                if (typeDef.HasCustomAttributes)
+                if (typeDef.Name == "ChildMonoClass")
                 {
-                    foreach (var attr in typeDef.CustomAttributes)
+                    Console.WriteLine("afaf");
+                }
+                
+                if (CecilHelperFunc.IsClassHasAttribute(typeDef, FastProfileClassAttribute))
+                {
+
+                    if (Program.isOutDebug)
                     {
-                        //Console.WriteLine("class attribute "+attr.AttributeType.Name+" class name is "+typeDef.Name);
-                        if (attr.AttributeType.Name == FastProfileClassAttribute)
-                        {
-                            if (typeDef.IsAbstract)
-                            {
-                                Console.WriteLine("[error] the type "+typeDef.Name+" is abstract cannot inject");
-                                continue;
-                            }
-                            
-                            if (typeDef.IsInterface)
-                            {
-                                Console.WriteLine("[error] the type "+typeDef.Name+" is interface cannot inject");
-                                continue;
-                            }
-                            
-                            classesInject.Add(typeDef);
-                        }
+                        Console.WriteLine("attribute "+FastProfileClassAttribute+" class name is "+typeDef.Name);
                     }
+                    
+                    classesInject.Add(typeDef);                    
                 }
 
+                var hasMethodAttribute = false;
                 foreach (var methodDef in typeDef.Methods)
                 {
-                    if (methodDef.HasCustomAttributes)
+                    hasMethodAttribute = CecilHelperFunc.IsMethodHasAttribute(methodDef, FastProfileMethodAttribute);
+                    
+                    if (hasMethodAttribute)
                     {
-                        foreach (var attr in methodDef.CustomAttributes)
+                        if (Program.isOutDebug)
                         {
-                            //Console.WriteLine("method attribute "+attr.AttributeType.Name+" class name is "+typeDef.Name+" method name is "+methodDef.Name);
-                            if (attr.AttributeType.Name == FastProfileMethodAttribute)
-                            {
-                                methodsInject.Add(methodDef);
-                            }
-                        }
+                            Console.WriteLine("attribute "+FastProfileMethodAttribute+" class name is "+typeDef.Name);
+                        }                            
+                        methodsInject.Add(methodDef);
                     }
                 }
                 
@@ -83,9 +75,12 @@ namespace FastProfiler
                     {
                         foreach (var attr in propertyDef.CustomAttributes)
                         {
-                            //Console.WriteLine("property attribute "+attr.AttributeType.Name+" class name is "+typeDef.Name+" property name is "+propertyDef.Name);
                             if (attr.AttributeType.Name == FastProfileMethodAttribute)
                             {
+                                if (Program.isOutDebug)
+                                {
+                                    Console.WriteLine("property attribute "+attr.AttributeType.Name+" class name is "+typeDef.Name+" property name is "+propertyDef.Name);
+                                }                                
                                 propertysInject.Add(propertyDef);
                             }
                         }
