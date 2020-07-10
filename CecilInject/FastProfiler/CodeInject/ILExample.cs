@@ -51,7 +51,7 @@ namespace FastProfiler
             
             //语法实现
             //https://docs.unity3d.com/ScriptReference/Object.html 
-            //This class doesn't support the null-conditional operator (?.) and the null-coalescing operator (??).
+            //Unity.Object class doesn't support the null-conditional operator (?.) and the null-coalescing operator (??).
             var t = this?.a;
             if (this == null)
             {
