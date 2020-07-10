@@ -9,8 +9,7 @@ public class ChildMonoClass : BaseMonoClass
     {
 
     }
-
-    [FastProfileMethod]
+    
     public override void InterfaceCall()
     {
         Debug.LogError("ChildMonoClass InterfaceCall");

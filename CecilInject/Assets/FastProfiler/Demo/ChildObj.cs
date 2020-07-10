@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//[FastProfileClass]
+[FastProfileClass]
 public class ChildObj : EmptyObj
 {
     // Start is called before the first frame update

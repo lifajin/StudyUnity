@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-//[FastProfileClass]
+[FastProfileClass]
 public class InjectClass : MonoBehaviour
 {
     public GameObject obj;
     
-    //[FastProfileMethod]
+    [FastProfileMethod]
     // Start is called before the first frame update
     void Start()
     {
@@ -17,21 +17,30 @@ public class InjectClass : MonoBehaviour
         gameObject.SetActive(true);
     }
 
-    [Range(0,4)]
-    public int op = 0;
+    [Tooltip("添加GameObject")]
+    public bool isAddObj= false;
+    [Tooltip("销毁所有GO")]
+    public bool isRmvObj= false;
+    [Tooltip("创建C#类")]
+    public bool isAddCObj= false;
+    [Tooltip("Set C# Null")]
+    public bool isSetNull= false;
+    [Tooltip("GC")]
+    public bool isGCCall= false;
     
     protected List<GameObject> golist = new List<GameObject>();
     protected List<EmptyClassData> cslist = new List<EmptyClassData>();
     private void Update()
     {
-        if (1 == op)
+        if (isAddObj)
         {
             var ngo = GameObject.Instantiate(obj);
             golist.Add(ngo);
+            isAddObj = false;
         }
 
         
-        if (2 == op)
+        if (isRmvObj)
         {
             for (int i = 0; i < golist.Count; i++)
             {
@@ -40,15 +49,17 @@ public class InjectClass : MonoBehaviour
             }
             
             golist.Clear();
+            isRmvObj = false;
         }
 
-        if (3 == op)
+        if (isAddCObj)
         {
             Debug.LogError("create data");
             cslist.Add(new EmptyClassData());
+            isAddCObj = false;
         }
         
-        if (4 == op)
+        if (isSetNull)
         {
             for (int i = 0; i < cslist.Count; i++)
             {
@@ -56,13 +67,14 @@ public class InjectClass : MonoBehaviour
             }
             
             cslist.Clear();
+            isSetNull = false;
         }
 
-        if (5 == op)
+        if (isGCCall)
         {
             GC.Collect();
+            isGCCall = false;
         }
-        
-        op = 0;
+
     }
 }

@@ -6,7 +6,7 @@ namespace FastProfiler
     public static class CecilHelperFunc
     {
         //检查一个类 及其 基类是否特定属性
-        public static  bool IsClassHasAttribute(TypeDefinition typeDef,  string attributeName)
+        public static  bool IsClassHasAttribute(TypeDefinition typeDef,  string attributeName, bool checkBase = false)
         {
             if (null == typeDef || string.IsNullOrEmpty(attributeName))
             {
@@ -24,11 +24,16 @@ namespace FastProfiler
                 }
             }
 
-            return IsClassHasAttribute(typeDef.BaseType?.Resolve(), attributeName);
+            var ret = false;
+            if (true == checkBase)
+            {
+                ret =IsClassHasAttribute(typeDef.BaseType?.Resolve(), attributeName);
+            }
+            return ret;
         }
 
 
-        public static bool IsMethodHasAttribute(MethodDefinition methodDef,  string attributeName)
+        public static bool IsMethodHasAttribute(MethodDefinition methodDef,  string attributeName, bool checkBase = false)
         {
             if (null == methodDef || string.IsNullOrEmpty(attributeName))
             {
@@ -47,11 +52,14 @@ namespace FastProfiler
             }
 
             var ret = false;
-            foreach (var baseMethodDef in methodDef.Overrides)
+            if (true == checkBase)
             {
-                ret |= IsMethodHasAttribute(baseMethodDef?.Resolve(), attributeName);
+                foreach (var baseMethodDef in methodDef.Overrides)
+                {
+                    ret |= IsMethodHasAttribute(baseMethodDef?.Resolve(), attributeName);
+                }              
             }
-
+            
             return ret;
         }
     }
